@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#countNum {
+    display: block;
+    text-align: center;
+    font-size: 10em;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 15px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: hsl(66, 89%, 64%);
+    transition: 0.5s ease;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
