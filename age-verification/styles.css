@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 430px;
+}
+
+#yourAge {
+    margin-left: 10px;
+    border: 3px solid hsla(0, 0%, 11%, 0.726);
+    border-radius: 5px;
+    align-items: center;
+}
+
+#mySubmit{
+    padding: 5px 20px;
+    font-size: 1.5rem;
+    margin: 10px;
+}
