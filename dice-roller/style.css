@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#rollDice {
+    font-size: 1.5rem;
+    padding: 5px 15px;
+    border: none;
+    background-color: hsl(230, 90%, 40%);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#rollDice:hover {
+    background-color: hsl(230, 90%, 50%);
+}
+
+#rollDice:active {
+    background-color: hsl(230, 90%, 70%);
+}
+
+#numOfDice {
+    width: 150px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+#diceResults {
+    margin: 15px;
+}
+
+#diceImages img {
+    width: 125px;
+    border-radius: 15px;
+}
