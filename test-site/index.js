@@ -59,4 +59,93 @@
  *      a variable that cant be changed
  */
 
-// Assignment: Create a counter program
+//Math functions
+
+// console.log(Math.PI) //gives pi value
+// console.log(Math.E) //gives Euler number value
+
+// let num = 23.567823
+// let roundNum = Math.round(num);
+// console.log(roundNum);
+
+// let num = 23.567823
+// let floorNum = Math.floor(num); //rounds down the number
+// console.log(floorNum);
+
+// let num = 23.567823
+// let ceilNum = Math.ceil(num); //rounds up the number
+// console.log(ceilNum);
+
+// let num = 23.567823
+// let truncNum = Math.trunc(num);//eliminate the decimal part
+// console.log(truncNum);
+
+// let pow = 10;
+// let num = 5;
+// let numPower = Math.pow(num,pow);
+// console.log(numPower);
+
+//IF Statements
+// function greetings(time){
+//     if(time > 1200){
+//         console.log("good afternoon!")
+//     }
+//     else{
+//         console.log("good morning!")
+//     }
+// }
+// greetings(1300);
+// greetings(0800);
+
+/**
+ * .checked :
+ *      a property that determines the checked state of an HTML checkBox or radio button element
+ */
+
+/**
+ * ternary operator:
+ *      a shortcut for if else statements
+ */
+
+// function greetings2(time){
+//     return time > 1200 ? "good afternoon" : "good morning";
+// }   
+// console.log(greetings2(1300));
+// console.log(greetings2(0300));
+
+// let value = 1;
+// switch (value) {
+//     case 1 :
+//         console.log("Monday");
+//         break;
+//     case 2 :
+//         console.log("Tuesday");
+//         break;
+//     case 3:
+//         console.log("Wednesday");
+//         break;
+//     case 4:
+//         console.log("Thursday");
+//         break;
+//     case 5:
+//         console.log("Friday");
+//         break;
+//     case 6:
+//         console.log("Saturday");
+//         break;
+//     case 7:
+//         console.log("Sunday");
+//         break;
+//     default :
+//         console.log("Day doesnt exist");
+//         break;
+// }
+
+//String Methods
+// let userName = "       Adhithyan H Nair    "
+// console.log(userName.length);
+// console.log(userName.charAt(12))
+// console.log(userName.indexOf("i"));
+// userName = userName.trim();
+// console.log(userName);
+
