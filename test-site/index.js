@@ -149,3 +149,69 @@
 // userName = userName.trim();
 // console.log(userName);
 
+//String Slicing
+// let str = "Selena Gomez"
+// let firstName = str.slice(0, str.indexOf(" "));
+// let lastName = str.slice((str.indexOf(" ") + 1));
+// console.log(`FirstName : ${firstName}`);
+// console.log(`LastName : ${lastName}`);
+
+//method chaining
+// let userName = window.prompt("Enter your username: ");
+// userName = userName.trim().charAt(0).toUpperCase() + userName.trim().slice(1).toLowerCase();
+// console.log(userName);
+
+//Logical Operator
+// let temp = 20;
+// console.log(typeof temp)
+// if (temp < 32 && temp > 22) {
+//     console.log("The weather is okay");
+// }
+// else if (temp < 22 || temp > 32) {
+//     console.log("The weather is not okay!");
+// }
+// else {
+//     console.log("Enter a number")
+// }
+
+//while loop
+// let n = 5;
+// let i = 1;
+// let sum = 0;
+// // while (i <= n) {
+// //     sum += i;
+// //     i++;
+// // }
+// // console.log(sum);
+// do {
+//     sum += i;
+//     i++
+// } while (i <= n);
+// console.log(sum)
+
+// for loop
+// let n = 5;
+// let sum = 0;
+// for (let i = 1; i <= n; i++) {
+//     sum += i;
+// }
+// console.log(sum);
+
+//array
+// let fruits = ["apple", "banana", "kiwi", "pineapple"]
+// console.log(fruits);
+// fruits[0] = "coconut";
+// console.log(fruits);
+// fruits.push("apple");
+// console.log(fruits);
+// fruits.pop();
+// console.log(fruits);
+// fruits.shift()
+// console.log(fruits);
+// fruits.unshift("apple");
+// console.log(fruits);
+// console.log(fruits.length);
+
+// for(let fruit of fruits){
+//     console.log(fruit);
+// }
