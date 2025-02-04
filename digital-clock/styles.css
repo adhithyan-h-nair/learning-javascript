@@ -1,9 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 body{
+    background-image: url("./background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     margin: 0;
 }
-clock-container{
+.clock-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid black 2px;
+    height: 100vh;
+}
+#clock{
+    font-size : 6rem;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    background: linear-gradient(to right,#8A2387, #E94057, #F27121);
+    -webkit-background-clip:text;
+    background-clip: text;
+    color: transparent;
+    padding: 20px;
+}
+.glassEffect{
+    text-align: center;
+    width: 70vw;
+    background: rgba(255, 255, 255, 0.295);
+    border-radius: 15px;
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: ease-in-out 0.3s;
+}
+.glassEffect:hover{
+    scale: 1.1;
 }
